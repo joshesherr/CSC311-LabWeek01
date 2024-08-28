@@ -11,6 +11,7 @@ public class Vehicle {
     float engineSize;
     String fuelType;
 
+    //constructor with parameters
     public Vehicle(int numberOfWheels, String color, float engineSize, String fuelType) {
         this.numberOfWheels = numberOfWheels;
         this.color = color;
@@ -18,7 +19,7 @@ public class Vehicle {
         this.fuelType = fuelType;
     }
 
-
+    //region Setters and Getters
     public int getNumberOfWheels() {
         return numberOfWheels;
     }
@@ -50,4 +51,6 @@ public class Vehicle {
     public void setColor(String color) {
         this.color = color;
     }
+    //endregion
+
 }
