@@ -6,10 +6,10 @@ package org.example;
  */
 public class Vehicle {
 
-    int numberOfWheels;
-    String color;
-    float engineSize;
-    String fuelType;
+    private int numberOfWheels;
+    private String color;
+    private float engineSize;
+    private String fuelType;
 
     //constructor with parameters
     public Vehicle(int numberOfWheels, String color, float engineSize, String fuelType) {

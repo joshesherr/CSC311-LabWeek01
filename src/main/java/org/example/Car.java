@@ -6,7 +6,7 @@ package org.example;
  */
 public class Car extends Vehicle{
 
-    String brand;
+    private String brand;
 
     //constructor with parameters
     public Car(int numberOfWheels, String color, float engineSize, String fuelType, String brand) {
